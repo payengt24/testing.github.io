@@ -35,6 +35,12 @@ p {
     clear: both;
 }
 
+table{
+    border: 1px solid black;
+    width: 400px;
+    
+}
+
 td,  th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -56,3 +62,4 @@ th {
     height: 200px;
     position: relative;
 }
+
