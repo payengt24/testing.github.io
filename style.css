@@ -1,3 +1,11 @@
+body {
+    background-color: gray;
+}
+
+p {
+    color: white;
+}
+
 .pinkFlower {
     width: 200px;
     height: 200px;
