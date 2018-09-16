@@ -10,3 +10,25 @@ p {
     width: 200px;
     height: 200px;
 }
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: hotpink;
+    
+}
+
+.pinkFlower {
+    float:left;
+    display:inline;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.song {
+    clear: both;
+}
