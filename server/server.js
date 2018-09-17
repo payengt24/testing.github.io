@@ -16,6 +16,13 @@ app.get('/musicGet', (req, res) => {
     res.send(musicList);
 })
 
+app.post('/musicPost', (req, res) => {
+    console.log('----',req.body);
+    musicList.push(req.body);
+    res.sendStatus(201);
+
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
 })
